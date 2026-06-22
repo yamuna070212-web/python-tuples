@@ -1,0 +1,7 @@
+numbers = (10, 50, 20, 70)
+
+print(max(numbers))
+
+Output
+
+70
