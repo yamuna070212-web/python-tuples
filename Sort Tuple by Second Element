@@ -1,0 +1,9 @@
+data = ((1, 5), (2, 3), (3, 1))
+
+result = tuple(sorted(data, key=lambda x: x[1]))
+
+print(result)
+
+Output
+
+((3, 1), (2, 3), (1, 5))
