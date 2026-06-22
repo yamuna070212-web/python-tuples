@@ -1,0 +1,13 @@
+numbers = (50, 10, 40, 20)
+
+smallest = numbers[0]
+
+for num in numbers:
+    if num < smallest:
+        smallest = num
+
+print(smallest)
+
+Output
+
+10
