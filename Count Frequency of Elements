@@ -1,0 +1,12 @@
+numbers = (1, 2, 2, 3, 3, 3)
+
+freq = {}
+
+for num in numbers:
+    freq[num] = freq.get(num, 0) + 1
+
+print(freq)
+
+Output
+
+{1: 1, 2: 2, 3: 3}
