@@ -1,0 +1,12 @@
+data = ((1, 2), (3, 4), (5, 6))
+
+total = 0
+
+for tup in data:
+    total += sum(tup)
+
+print(total)
+
+Output
+
+21
