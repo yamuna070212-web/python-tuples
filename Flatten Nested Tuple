@@ -1,0 +1,12 @@
+data = ((1, 2), (3, 4), (5, 6))
+
+result = ()
+
+for tup in data:
+    result += tup
+
+print(result)
+
+Output
+
+(1, 2, 3, 4, 5, 6)
