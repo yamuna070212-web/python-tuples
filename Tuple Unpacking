@@ -1,0 +1,13 @@
+student = ("Yamuna", 19, "AIML")
+
+name, age, branch = student
+
+print(name)
+print(age)
+print(branch)
+
+Output
+
+Yamuna
+19
+AIML
