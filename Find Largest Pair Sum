@@ -1,0 +1,9 @@
+numbers = (10, 20, 30, 40)
+
+temp = sorted(numbers)
+
+print(temp[-1] + temp[-2])
+
+Output
+
+70
