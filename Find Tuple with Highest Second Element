@@ -1,0 +1,9 @@
+data = ((10, 2), (50, 1), (30, 8))
+
+result = max(data, key=lambda x: x[1])
+
+print(result)
+
+Output
+
+(30, 8)
