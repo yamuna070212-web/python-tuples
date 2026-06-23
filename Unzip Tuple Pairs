@@ -1,0 +1,11 @@
+data = ((1, 'A'), (2, 'B'), (3, 'C'))
+
+a, b = zip(*data)
+
+print(a)
+print(b)
+
+Output
+
+(1, 2, 3)
+('A', 'B', 'C')
