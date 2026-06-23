@@ -1,0 +1,9 @@
+data = ((1, 2), (10, 20), (3, 4))
+
+result = max(data, key=sum)
+
+print(result)
+
+Output
+
+(10, 20)
