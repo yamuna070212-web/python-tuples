@@ -1,0 +1,9 @@
+data = ((1, 2), (2, 2), (3, 5))
+
+result = tuple(x for x in data if sum(x) % 2 == 0)
+
+print(result)
+
+Output
+
+((2, 2), (3, 5))
