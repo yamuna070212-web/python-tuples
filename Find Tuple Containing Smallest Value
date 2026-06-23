@@ -1,0 +1,9 @@
+data = ((1, 2), (10, 50), (5, 6))
+
+result = min(data, key=min)
+
+print(result)
+
+Output
+
+(1, 2)
