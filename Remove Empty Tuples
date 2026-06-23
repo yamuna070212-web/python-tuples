@@ -1,0 +1,9 @@
+data = ((), (1, 2), (), (3, 4))
+
+result = tuple(x for x in data if x)
+
+print(result)
+
+Output
+
+((1, 2), (3, 4))
