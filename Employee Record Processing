@@ -1,0 +1,13 @@
+employees = (
+    ("Ram", 30000),
+    ("Shyam", 45000),
+    ("Asha", 40000)
+)
+
+highest = max(employees, key=lambda x: x[1])
+
+print(highest)
+
+Output
+
+('Shyam', 45000)
