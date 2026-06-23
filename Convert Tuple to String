@@ -1,0 +1,9 @@
+letters = ('P', 'Y', 'T', 'H', 'O', 'N')
+
+result = "".join(letters)
+
+print(result)
+
+Output
+
+PYTHON
