@@ -1,0 +1,13 @@
+students = (
+    ("Ram", 80),
+    ("Asha", 95),
+    ("John", 70)
+)
+
+result = sorted(students, key=lambda x: x[1])
+
+print(result)
+
+Output
+
+[('John', 70), ('Ram', 80), ('Asha', 95)]
